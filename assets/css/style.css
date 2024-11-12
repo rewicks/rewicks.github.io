@@ -67,7 +67,7 @@
   --vegas-gold: hsl(199, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(243, 82%, 39%);
+  --bittersweet-shimmer: hsl(208, 100%, 50%);
 
   /**
    * typography
@@ -125,7 +125,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: var(--bittersweet-shimmer)}
 
 li { list-style: none; }
 
