@@ -1,0 +1,9 @@
+{
+    "category": "Methods",
+    "slug": "language-token-prefixing",
+    "image": "language-tokens.png",
+    "alt-tag": "language token prefixes",
+    "title": "The Effects of Language Token Prefixing for Multilingual Machine Translation",
+    "markdown": "language-tokens.md",
+    "paper": "https://aclanthology.org/2022.aacl-short.19/"
+}

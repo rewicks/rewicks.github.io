@@ -1,0 +1,10 @@
+{
+    "category": "Datasets",
+    "slug": "paradocs",
+    "image": "paradocs.png",
+    "alt-tag": "Paradocs",
+    "title": "Recovering document annotations for sentence-level bitext",
+    "markdown": "paradocs.md",
+    "paper": "https://aclanthology.org/2024.findings-acl.589/",
+    "dataset": "https://huggingface.co/datasets/jhu-clsp/paradocs"
+}

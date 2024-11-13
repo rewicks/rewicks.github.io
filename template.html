@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachel Wicks</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Rachel Wicks" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rachel Wicks">Rachel Wicks</h1>
+
+          <p class="title">PhD Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rewicks@jhu.edu" class="contact-link">rewicks@jhu.edu</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Johns Hopkins University</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/rewicks" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://huggingface.co/rewicks" class="social-link">
+              <img src = "./assets/images/logo-huggingface.svg" class="social-link"/>
+              <!-- <ion-icon name="logo-twitter"></ion-icon> -->
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=4YgNjmIAAAAJ&hl=en&oi=ao" class="social-link">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="publications">Publications</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a final year PhD student at Johns Hopkins University. 
+            For the past few years I've been working with <a href="https://waypost.net/">Matt Post</a> and <a href="https://www.cs.jhu.edu/~phi/">Philipp Koehn</a>.
+            My research has focused on the nitty-gritty problems (read: <i>data</i> improvements) that oft get overlooked, targeting improvement in machine translation.
+            More broadly, I'm interested in multilinguality in NLP, with experience in sequence to sequence modeling, corpus creation, and data augmentation.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Projects</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://huggingface.co/datasets/jhu-clsp/paradocs">
+                <h4 class="h4 service-item-title">ParaDocs</h4>
+
+                <p class="service-item-text">
+                  A collection of parallel dataset with document-level annotations for context-aware machine translation.
+                </p>
+                </a>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <!-- <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"> -->
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://github.com/rewicks/ctxpro">
+                <h4 class="h4 service-item-title">CTXPRO</h4>
+
+                <p class="service-item-text">
+                  Automatically curated evaluation datasets to measure the ability to translate contextually-ambiguous discourse phenomena.
+                </p>
+                </a>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <!-- <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40"> -->
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">LIDIRL</h4>
+
+                <p class="service-item-text">
+                  A series of robust language identification models that improve performance on the long tail of errors from noisy web text.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <!-- <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> -->
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://github.com/rewicks/ersatz">
+                <h4 class="h4 service-item-title">ersatz</h4>
+
+                <p class="service-item-text">
+                  A training and inference framework for the task of sentence segmentation in many languages.
+                </p>
+                </a>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <section class="about-text">
+          <p>
+            This website is derived from a template you can find <a href="https://github.com/codewithsadee/vcard-personal-portfolio">here</a>.
+          </p>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Datasets</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Methods</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Datasets</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Methods</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            ```INSERT_PUBLICATION_LINKS_HERE```
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      ```INSERT_PUBLICATION_PAGES_HERE```
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "category": "Datasets",
+    "slug": "jhubc",
+    "image": "bible-corpus.png",
+    "alt-tag": "Johns Hopkins Bible Corpus",
+    "title": "The Johns Hopkins University Bible Corpus: 1600+ Tongues for Typological Exploration",
+    "markdown": "jhubc.md",
+    "paper": "https://aclanthology.org/2020.lrec-1.352/"
+}

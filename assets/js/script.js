@@ -19,8 +19,8 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
-const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
-const overlay = document.querySelector("[data-overlay]");
+// const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
+// const overlay = document.querySelector("[data-overlay]");
 
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
@@ -50,8 +50,8 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+// modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+// overlay.addEventListener("click", testimonialsModalFunc);
 
 
 
@@ -140,12 +140,16 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
+console.log(navigationLinks)
+console.log(pages)
+
+// // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
     for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+      // if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+      if (this.dataset.navLink === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
@@ -154,6 +158,5 @@ for (let i = 0; i < navigationLinks.length; i++) {
         navigationLinks[i].classList.remove("active");
       }
     }
-
   });
 }

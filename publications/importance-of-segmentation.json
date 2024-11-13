@@ -1,0 +1,9 @@
+{
+    "category": "Methods",
+    "slug": "importance-of-sentence-segmentation",
+    "image": "does-segmentation-matter.png",
+    "alt-tag": "Does Sentence Segmentation Matter?",
+    "title": "Does Sentence Segmentation Matter for Machine Translation?",
+    "markdown": "importance-of-segmentation.md",
+    "paper": "https://aclanthology.org/2022.wmt-1.78/"
+}

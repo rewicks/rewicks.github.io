@@ -1,0 +1,10 @@
+{
+    "category": "Datasets",
+    "slug": "ctxpro",
+    "image": "ctxpro.png",
+    "alt-tag": "ctxpro",
+    "title": "Identifying Context-Dependent Translations for Evaluation Set Production",
+    "markdown": "ctxpro.md",
+    "paper": "https://aclanthology.org/2023.wmt-1.42/",
+    "code": "https://github.com/rewicks/ctxpro"
+}

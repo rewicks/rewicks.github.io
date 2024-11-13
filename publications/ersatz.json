@@ -1,0 +1,10 @@
+{
+    "category": "Methods",
+    "slug": "ersatz",
+    "image": "ersatz.png",
+    "alt-tag": "ersatz",
+    "title": "A unified approach to sentence segmentation of punctuated text in many languages",
+    "markdown": "ersatz.md",
+    "paper": "https://aclanthology.org/2021.acl-long.309/",
+    "code": "https://github.com/rewicks/ersatz"
+}

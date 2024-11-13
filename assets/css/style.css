@@ -243,6 +243,7 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  /* margin-right: 250px; */
 }
 
 .article-title::after {
@@ -942,6 +943,7 @@ main {
   margin-bottom: 10px;
 }
 
+
 .project-item { display: none; }
 
 .project-item.active {
@@ -1408,6 +1410,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .service-content-box { text-align: left; }
+
+  /* paper links */
+  .paper-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+  }
+
+  .paper-item { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: var(--bg-gradient-onyx);
+    border-radius: 16px;
+
+  }
+
+  .paper-title { 
+    font-size: var(--fs-7); 
+  }
+
 
   /* testimonials */
 
