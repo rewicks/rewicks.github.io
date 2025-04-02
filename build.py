@@ -85,6 +85,7 @@ def build_page_content(markdown):
 
 
 PUBLICATIONS = [
+    "abe.json",
     "paradocs.json",
     "ctxpro.json",
     "language-tokens.json",
